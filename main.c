@@ -86,7 +86,6 @@ void calculaMedia(){
 
   	// processamento
   	mediaAnual = (nota1 + nota2 + nota3 + nota4) / 4 ;
-
 	// criticar para saber se o aluno esta aprovado ou retido
 	// saida
     system("cls || clear");
@@ -106,6 +105,15 @@ void calculaMedia(){
         printf("|                                                |\n");
         printf("+------------------------------------------------+\n");
     }
+
+
+        printf(" \nNOTAS DIGITADAS\n ");
+        printf(" Nota 1: %f; Nota 2: %f; Nota 3: %f; Nota 4: %f \n\n",nota1,nota2,nota3,nota4);
+        /*
+        printf(" - %f ",nota2);
+        printf(" - %f ",nota3);
+        printf(" - %f ",nota4);
+        */
 
         MENU_DA_MEDIA:
         printf("+------------------------------------------------+\n");
